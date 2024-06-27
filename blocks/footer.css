@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  position: relative;
+  color: #545454;
+  left: 200px;
+  width: 318px;
+  height: 18px;
+  justify-content: center;
+  margin-top: 50px;
+}
