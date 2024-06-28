@@ -17,37 +17,3 @@
   min-height: 100vh;
   align-items: center;
 }
-
-@media screen and (max-width: 480px) {
-  .profile {
-    background-color: pink;
-    flex-direction: column;
-  }
-  .profile__info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-  }
-  .profile__image {
-    margin-right: auto;
-    height: 120px;
-    width: 120px;
-  }
-  .profile__description {
-    width: 100%;
-    text-align: center;
-  }
-  .profile__add-button {
-    margin: 0;
-    width: 100%;
-  }
-  .profile__edit-button {
-    width: 18px;
-    height: 18px;
-  }
-  .cards {
-    max-width: 282px;
-  }
-}
