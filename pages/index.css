@@ -5,3 +5,54 @@
 @import url(../blocks/gallery.css);
 @import url(../blocks/card.css);
 @import url(../blocks/footer.css);
+
+@media screen and (max-width: 480px) {
+  .header {
+    top: 28px;
+    max-width: 320px;
+    height: 56px;
+    margin: 0;
+  }
+  .profile {
+    background-color: pink;
+    flex-direction: column;
+  }
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .profile__image {
+    margin-right: auto;
+    height: 120px;
+    width: 120px;
+  }
+  .profile__description {
+    width: 100%;
+    text-align: center;
+  }
+  .profile__add-button {
+    margin: 0;
+    width: 100%;
+  }
+  .profile__edit-button {
+    width: 18px;
+    height: 18px;
+  }
+  .cards {
+    width: 282px;
+    height: 282px;
+  }
+  .card__description {
+    display: flex;
+    background-color: white;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
