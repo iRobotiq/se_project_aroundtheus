@@ -3,7 +3,6 @@
   align-items: center;
   padding-top: 40px;
   max-width: 880px;
-  height: 120px;
 }
 .profile__info {
   display: grid;
@@ -27,10 +26,9 @@
   background: transparent url(../images/add-icon.svg) center no-repeat;
   width: 150px;
   height: 50px;
-  left: 245px;
-  position: relative;
   border-radius: 2px;
   border: none;
+  margin-left: auto;
 }
 .profile__title {
   font-size: 42px;

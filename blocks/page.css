@@ -11,8 +11,6 @@
   margin: 0 auto;
 }
 .page__content {
-  margin-left: 200px;
-  margin-right: 200px;
   flex-direction: column;
   min-height: 100vh;
   align-items: center;
