@@ -1,9 +1,26 @@
 .footer {
-  display: flex;
   color: #545454;
   left: 200px;
   width: 318px;
   height: 18px;
-  justify-content: center;
-  margin-top: 50px;
+  justify-content: flex-end;
+  margin-top: 50spx;
+  margin-left: 200px;
+  margin-right: auto;
+}
+@media screen and (max-width: 320px) {
+  .footer {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    margin: 0;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 581px) {
+  .footer {
+    margin: 0;
+  }
 }
