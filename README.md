@@ -17,3 +17,6 @@ This project is a mock up of a website with all elements displayed correctly on 
 **Images**
 
 The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster.
+
+**Video**
+Submitting when there is more website content in order to fulfill requirements.
