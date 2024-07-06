@@ -171,9 +171,8 @@
   }
   .profile__info {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     width: 100%;
+    justify-content: flex-start;
   }
   .profile__image {
     height: 120px;
