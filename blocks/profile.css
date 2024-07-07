@@ -53,6 +53,9 @@
   grid-area: description;
   margin: 0;
   max-width: 415px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .profile__image {
   height: 120px;
