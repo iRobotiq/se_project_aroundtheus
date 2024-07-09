@@ -1,10 +1,13 @@
 .footer__paragraph {
   color: #545454;
   max-width: 880px;
-  height: 18px;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
+  line-height: 21px;
+  font-size: 18px;
+  padding-bottom: 40px;
 }
 @media screen and (max-width: 800px) {
   .footer__paragraph {
@@ -14,7 +17,8 @@
 }
 @media screen and (max-width: 320px) {
   .footer__paragraph {
-    margin: 0;
     margin-left: 19px;
+    line-height: 17px;
+    font-size: 14px;
   }
 }
