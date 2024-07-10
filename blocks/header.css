@@ -7,6 +7,8 @@
 }
 .header__image {
   margin-bottom: 40px;
+  width: 173px;
+  height: 33px;
 }
 @media screen and (max-width: 800px) {
   .header {
@@ -15,5 +17,14 @@
     min-height: 24px;
     margin-left: 40px;
     margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__image {
+    width: 126px;
+    height: 24px;
+  }
+  .header {
+    height: 56px;
   }
 }

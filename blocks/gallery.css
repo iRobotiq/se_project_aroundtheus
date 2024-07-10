@@ -10,4 +10,10 @@
   margin-top: 29px;
   padding: 0;
   max-width: 880px;
+  margin-bottom: 61px;
+}
+@media screen and (max-width: 320px) {
+  .gallery__cards {
+    margin-top: 26px;
+  }
 }
