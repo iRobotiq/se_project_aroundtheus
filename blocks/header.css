@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 880px;
-  border-bottom: 1px solid rgba(84, 84, 84, 1);
+  border-bottom: 1px solid #545454;
 }
 .header__image {
   margin-bottom: 40px;
@@ -13,16 +13,18 @@
 @media screen and (max-width: 800px) {
   .header {
     margin-top: 28px;
-    max-width: 126px;
     min-height: 24px;
+  }
+  .header__image {
     margin-left: 40px;
-    margin-bottom: 40px;
+    max-width: 126px;
   }
 }
 @media screen and (max-width: 320px) {
   .header__image {
     width: 126px;
     height: 24px;
+    margin-left: 27px;
   }
   .header {
     height: 56px;
