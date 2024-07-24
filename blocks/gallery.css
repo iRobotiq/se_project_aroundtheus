@@ -19,6 +19,16 @@
     margin-right: auto;
   }
 }
+@media screen and (max-width: 650px) {
+  .gallery__cards {
+    max-width: 590px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .gallery__cards {
+    max-width: 545px;
+  }
+}
 @media screen and (max-width: 320px) {
   .gallery__cards {
     margin-top: 26px;

@@ -15,7 +15,13 @@
     margin-left: 110px;
   }
 }
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 650px) {
+  .footer__paragraph {
+    margin: 0;
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 590px) {
   .footer__paragraph {
     margin-left: 150px;
   }
