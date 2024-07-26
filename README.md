@@ -26,4 +26,4 @@ The way you'll do this at work is by exporting images directly from Figma — we
 ![Yosemite Valley image](yosemite-valley.png)
 ![Bald Mountains image](bald-mountains.png)
 **Video**
-[Video](https://drive.google.com/file/d/1NtRPtV3W3LEzyjfA4Z8j_mtUJHQsbIVS/view)
+[Video](https://youtu.be/GshlZxCZ72A)

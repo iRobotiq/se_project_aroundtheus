@@ -156,9 +156,6 @@
   .profile__info {
     justify-content: flex-start;
   }
-  .profile__add-button {
-    margin-top: 36px;
-  }
   .profile__edit-button {
     margin-top: 34px;
   }
