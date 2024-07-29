@@ -151,10 +151,11 @@
     margin-top: 30px;
   }
   .profile__description {
-    margin-top: 14px;
+    margin-top: 0;
   }
   .profile__info {
     justify-content: flex-start;
+    grid-gap: 9px 10px;
   }
   .profile__edit-button {
     margin-top: 34px;
