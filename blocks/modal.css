@@ -60,7 +60,7 @@
   width: 100%;
   padding-bottom: 5px;
 }
-.modal__button {
+.modal__save-button {
   width: 100%;
   padding: 0;
   border: none;
@@ -75,7 +75,7 @@
   background-color: #000;
   margin-top: 48px;
 }
-.modal__button:hover {
+.modal__save-button:hover {
   background: rgba(0, 0, 0, 1);
   opacity: 80%;
   cursor: pointer;
@@ -101,7 +101,7 @@
   font-size: 14px;
   line-height: 17px;
 }
-.modal__button {
+.modal__save-button {
   font-size: 14px;
   line-height: 17px;
   min-height: 50px;
