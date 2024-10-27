@@ -53,7 +53,7 @@
   flex-direction: column;
   margin: 0;
 }
-.modal__fieldset {
+.modal__input {
   margin-bottom: 30px;
   border: none;
   border-bottom: 1px solid black;
@@ -97,7 +97,7 @@
     right: 0px;
   }
 }
-.modal__fieldset {
+.modal__input {
   font-size: 14px;
   line-height: 17px;
 }
