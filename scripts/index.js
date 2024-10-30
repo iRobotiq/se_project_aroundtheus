@@ -43,8 +43,10 @@ const profileDescriptionInput = document.querySelector(
   "#profile-description-input"
 );
 const profileEditForm = document.querySelector(".modal__form");
-const cardListEL = document.querySelector(".gallery__cards");
-const cardTemplate = document.querySelector("#card-template");
+const cardListEL = document.querySelector("#card-list");
+const cardTemplate = document
+  .querySelector("#card-template")
+  .content.querySelector(".card");
 /*Functions*/
 
 function closePopup() {
@@ -68,13 +70,18 @@ profileCloseButton.addEventListener("click", () => {
   closePopup();
 });
 profileEditForm.addEventListener("submit", handleProfileEditSubmit);
-initialCards.forEach((cardData) => {
+function getCardElement(data) {
   const cardElement = cardTemplate.cloneNode(true);
-  const cardImageEL = cardElement.querySelector(".card__image");
-  const cardTitleEL = cardElement.querySelector(".card__title");
-  cardTitleEL.textContent = cardData.name;
-  cardImageEL.src = cardData.link;
-  cardImageEL.alt = cardData.title;
-  //return cardElement;
-  cardListEL.append(cardElement);
-});
+  const cardImage = cardElement.querySelector(".card__image");
+  const cardTitle = cardElement.querySelector(".card__title");
+
+  cardImage.src = data.link;
+  cardImage.alt = data.name;
+
+  cardTitle.textContent = data.name;
+
+  return cardElement;
+}
+for (let i = 0; i < initialCards.length; i++) {
+  cardListEL.prepend(getCardElement(initialCards[i]));
+}
