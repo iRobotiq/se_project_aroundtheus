@@ -74,13 +74,14 @@
   min-height: 60px;
   color: #ffffff;
   background-color: #000;
-  margin-top: 48px;
+  margin-top: 18px;
 }
 .modal__save-button:hover {
   background: rgba(0, 0, 0, 1);
   opacity: 80%;
   cursor: pointer;
 }
+
 @media screen and (max-width: 650px) {
   .modal__container {
     margin-left: auto;
@@ -97,14 +98,14 @@
     height: 26px;
     right: 0px;
   }
-}
-.modal__input {
-  font-size: 14px;
-  line-height: 17px;
-}
-.modal__save-button {
-  font-size: 14px;
-  line-height: 17px;
-  min-height: 50px;
-  margin-top: 45px;
+  .modal__input {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .modal__save-button {
+    font-size: 14px;
+    line-height: 17px;
+    min-height: 50px;
+    margin-top: 45px;
+  }
 }
